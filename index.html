@@ -13,7 +13,7 @@
       <a class="navigation-link" href="index.html">Главная</a>
       </li>
       <li class="navigation-item">
-      <a class="navigation-link" href="#">О Cедоне</a>
+      <a class="navigation-link-current" href="#">О Cедоне</a>
       </li>
       <li class="navigation-item">
       <a class="navigation-link" href="catalog.html">Гостиницы</a>
@@ -93,22 +93,50 @@
       <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
       <A class="request" href="catalog.html">ПОИСК ГОСТИНИЦЫ В CЕДОНЕ</a>
     </section>
-    <section class="mailing-user">
-      <img class="foto-place-background" src="#" alt="background-Сanyon">
-      <h2 class="mailing-user-subscription">Подпишитесь на рассылку</h2>
-      <p>Только полезная информация и никакого спама, честное бойскаутское!
-      <form class="mailing-user" action="https://echo.htmlacademy.ru/" method="post"></form>
-      <input name="mailing-user" id="mailing-user" type="email" placeholder="email">
-      <button class="button" type="submit">Подписаться</button></p>
-    </section>
+   <section class="mailing">
+       <h2 class="mailing-user-subscription">Подпишитесь на рассылку</h2>
+       <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <form class="mailing-form" action="https://echo.htmlacademy.ru/" method="post"></form>
+         <input class="field" name="mailing-form"  type="email" placeholder="Ваш e-mail" id="mailing-form" required>
+          <button class="button" type="submit">
+          <Span class="visually-hidden">Подписаться</Span>
+          </button>
+          <img class="foto-place-background" src="#" alt="background-canyon">
+      </section>
     </main>
-    <footer>
-      <a class="visually-hidden" href="//vk.com/htmlacademy">VK</a>
-      <a class="visually-hidden" href="https://t.me/htmlacademy">Telegram</a>
-      <a class="visually-hidden" href=" https://www.youtube.com/user/htmlacademyru">youtube</a>
-      <a class="contacts-sibtitle" href="88128121212">+7 (812) 812-12-12</a>
-      <a class="visually-hidden" href="https://htmlacademy.ru/">logo-HTML</a>
-      <img class="logo-HTML" rc="#" alt="logo-HTML">
-    </footer>
+
+    <footer class="page-footer">
+      <section  class="page-footer-social-list">
+      <h2 class="visually-hidden">social-list</h2>
+     <ul  class="footer-social-title">
+       <li  class="footer-social-title social-vk">
+        <a class="button" href="//vk.com/htmlacademy">
+          <span class="visually-hidden">VK</span>
+        </a>
+       </li>
+       <li class="ffooter-social-title social-telegram">
+         <a class="button" href="https://t.me/htmlacademy">
+           <span class="visually-hidden">Telegram</span>
+         </a>
+       </li>
+       <li class="footer-social-title social-youtube">
+         <a class="button" href=" https://www.youtube.com/user/htmlacademyru">
+           <span class="visually-hidden">youtube</span>
+         </a>
+       </li>
+       <li class="footer-social-title tel" >
+        <a class="button" href="tel:88128121212">
+           <span class="visually-hidden">+7 (812) 812-12-12</span>
+        </a>
+       </li>
+       <li class="footer-social-title logo-HTML" >
+        <a class="button" href="https://htmlacademy.ru/">
+          <span class="visually-hidden">logo-HTML</span>
+          <img class="button" src="#" alt="logo-HTML">
+         </a>
+       </li>
+     </ul>
+     </section>
+   </footer>
   </body>
 </html>
